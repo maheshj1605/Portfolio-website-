@@ -8,7 +8,13 @@ header{
 background:#1e1e1e;
 color:white;
 text-align:center;
-padding:40px;
+padding:30px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
 }
 
 section{
@@ -16,8 +22,4 @@ background:white;
 margin:20px;
 padding:20px;
 border-radius:10px;
-}
-
-h2{
-color:#333;
 }
