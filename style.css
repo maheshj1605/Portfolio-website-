@@ -1,45 +1,135 @@
-body{
-font-family: Arial, sans-serif;
+{
 margin:0;
 padding:0;
-background:#f4f4f4;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
 line-height:1.6;
 }
 
+/* Header */
+
 header{
-background:#1e1e1e;
+background:#111827;
 color:white;
-text-align:center;
 padding:40px 20px;
+text-align:center;
 }
 
+header h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:16px;
+opacity:0.9;
+}
+
+/* Navigation */
+
 nav{
-margin-top:10px;
+margin-top:20px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin:0 10px;
-font-weight:bold;
+margin:0 12px;
+font-size:15px;
+padding:6px 10px;
+border-radius:6px;
+transition:0.3s;
 }
 
 nav a:hover{
-text-decoration:underline;
+background:#2563eb;
 }
 
+/* Sections */
+
 section{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+max-width:900px;
+margin:40px auto;
+padding:0 20px;
 }
 
 h2{
-border-bottom:2px solid #333;
-padding-bottom:5px;
+margin-bottom:15px;
+font-size:24px;
+color:#111827;
+border-left:4px solid #2563eb;
+padding-left:10px;
 }
 
+/* Project Cards */
+
 .project{
-background:#faf
+background:white;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.project:hover{
+transform:translateY(-5px);
+}
+
+/* Lists */
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:6px;
+}
+
+/* Skills */
+
+#skills ul{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+list-style:none;
+padding:0;
+}
+
+#skills li{
+background:#2563eb;
+color:white;
+padding:6px 12px;
+border-radius:6px;
+font-size:14px;
+}
+
+/* Contact */
+
+#contact p{
+margin:6px 0;
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+header h1{
+font-size:26px;
+}
+
+nav a{
+display:inline-block;
+margin:6px;
+}
+
+section{
+margin:25px auto;
+}
+
+}
