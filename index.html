@@ -1,142 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Mahesh J Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahesh J | Software Developer</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>Mahesh J</h1>
-<p>Software Developer | Web Developer</p>
-<p>Chennai, Tamil Nadu</p>
+<header class="header">
+  <h1>Mahesh J</h1>
+  <p class="tagline">Software Developer | Full Stack Developer</p>
+  <p>Chennai, Tamil Nadu, India</p>
 
-<nav>
-<a href="#about">About</a>
-<a href="#education">Education</a>
-<a href="#projects">Projects</a>
-<a href="#skills">Skills</a>
-<a href="#contact">Contact</a>
-</nav>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
+  <!-- Resume Button in Header -->
+  <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
 </header>
 
-<section id="about">
-<h2>About Me</h2>
-<p>
-Engineering undergraduate with strong foundations in Data Structures,
-Algorithms, OOP and frontend development (HTML, CSS, JavaScript).
-</p>
+<main>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    Motivated engineering undergraduate specializing in Artificial Intelligence 
+    and Machine Learning with strong foundations in Data Structures, Algorithms, 
+    Object-Oriented Programming, and Full Stack Development. Passionate about 
+    building scalable applications and solving real-world problems.
+  </p>
 </section>
 
-<section id="education">
-<h2>Education</h2>
+<section id="education" class="section">
+  <h2>Education</h2>
 
-<h3>Velammal Engineering College</h3>
-<p>B.E AM Engineering (2023 – 2027)</p>
-<p>CGPA: 8.05</p>
-<h3>KENC Higher secondary school</h3>
-<p>Mathematics with Computer science (2021 - 2023)</p>
+  <div class="card">
+    <h3>Velammal Engineering College</h3>
+    <p>B.E Artificial Intelligence & Machine Learning (2023 – 2027)</p>
+    <p><strong>CGPA:</strong> 8.3 / 10</p>
+  </div>
+
+  <div class="card">
+    <h3>KENC Higher Secondary School</h3>
+    <p>Mathematics with Computer Science (2021 – 2023)</p>
+  </div>
 </section>
 
-<section id="projects">
+<section id="projects" class="section">
+  <h2>Projects</h2>
 
-<h2>Projects</h2>
+  <div class="card">
+    <h3>Full Stack Web Applications</h3>
+    <p>
+      Developed responsive and scalable web applications using HTML, CSS, JavaScript, 
+      React, and Node.js. Implemented REST APIs and optimized UI performance.
+    </p>
+  </div>
 
-<div class="project">
-<h3>Web Development Mini Projects</h3>
-<p>
-Developed responsive websites using HTML, CSS and JavaScript.
-Implemented interactive UI components and improved usability
-through clean frontend design.
-</p>
-</div>
+  <div class="card">
+    <h3>AI-Based Project (Gemini Clone)</h3>
+    <p>
+      Built an AI chatbot using APIs and NLP concepts with real-time response handling.
+    </p>
+  </div>
 
-<div class="project">
-<h3>Technical Research Project</h3>
-<p>
-Authored and presented a research paper on Ethical Hacking
-and Sustainable Cyber Defense at a national conference.
-</p>
-</div>
-
-<div class="project">
-<h3>Personal Portfolio Website</h3>
-<p>
-Designed and developed a personal portfolio website to showcase
-projects, skills, achievements and certifications using HTML,
-CSS and JavaScript.
-</p>
-</div>
-
-</section>
-
-<section id="experience">
-
-<h2>Experience</h2>
-
-<div class="project">
-<h3>SAE Bicycle Design Challenge </h3>
-<p><strong>Role:</strong> Engineering & Technical Leadership (2025 – 2026)</p>
-
-<ul>
-<li>Led technical coordination and supported system design decisions.</li>
-<li>Applied engineering principles to improve bicycle maneuverability.</li>
-<li>Collaborated with team members to evaluate design trade-offs.</li>
-<li>Used CAD tools and analytical thinking to optimize performance.</li>
-<li>Won <strong>2nd Prize – Best Maneuverability</strong> at national competition.</li>
-</ul>
-
-</div>
+  <div class="card">
+    <h3>Personal Portfolio Website</h3>
+    <p>
+      Designed a responsive portfolio website showcasing projects and skills.
+    </p>
+  </div>
 
 </section>
 
-<section id="skills">
-<h2>Technical Skills</h2>
+<section id="experience" class="section">
+  <h2>Experience</h2>
 
-<ul>
-<li>Python</li>
-<li>Java</li>
-<li>C</li>
-<li>JavaScript</li>
-<li>HTML</li>
-<li>CSS</li>
-</ul>
+  <div class="card">
+    <h3>SAE Bicycle Design Challenge</h3>
+    <p><strong>Role:</strong> Vice Captain & Technical Lead (2025 – 2026)</p>
 
-</section>
-
-<section id="certifications">
-
-<h2>Certifications</h2>
-
-<ul>
-<li>GenAI Powered Data Analytics – Tata Group</li>
-<li>Python for Data Science – IBM</li>
-<li>Data Analytics and Visualization – Accenture</li>
-</ul>
+    <ul>
+      <li>Led technical decision-making and system design.</li>
+      <li>Improved maneuverability through engineering analysis.</li>
+      <li>Worked with team to optimize performance.</li>
+      <li><strong>Award:</strong> 2nd Prize – Best Maneuverability</li>
+    </ul>
+  </div>
 
 </section>
 
-<section id="achievements">
+<section id="skills" class="section">
+  <h2>Technical Skills</h2>
 
-<h2>Achievements</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>Java</span>
+    <span>C</span>
+    <span>JavaScript</span>
+    <span>React</span>
+    <span>Node.js</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>SQL</span>
+    <span>MongoDB</span>
+  </div>
+</section>
 
-<ul>
-<li>Vice Captain – SAE Bicycle Design Challenge (2025–2026)</li>
-<li>2nd Prize – Best Maneuverability at National Level Competition</li>
-<li>National Conference Presenter – RMK College of Engineering and Technology (Feb 2025)</li>
-</ul>
+<section id="certifications" class="section">
+  <h2>Certifications</h2>
+
+  <ul>
+    <li>GenAI Powered Data Analytics – Tata Group</li>
+    <li>Python for Data Science – IBM</li>
+    <li>Data Analytics & Visualization – Accenture</li>
+  </ul>
+</section>
+
+<section id="achievements" class="section">
+  <h2>Achievements</h2>
+
+  <ul>
+    <li>Vice Captain – SAE Bicycle Design Challenge</li>
+    <li>2nd Prize – Best Maneuverability</li>
+    <li>National Conference Presenter – RMK College</li>
+  </ul>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+
+  <p><strong>Email:</strong> 
+    <a href="mailto:mahesh162005k@gmail.com">mahesh162005k@gmail.com</a>
+  </p>
+
+  <p><strong>LinkedIn:</strong> 
+    <a href="https://linkedin.com/in/maheshj1605" target="_blank">
+      linkedin.com/in/maheshj1605
+    </a>
+  </p>
+
+  <p><strong>GitHub:</strong> 
+    <a href="#">Add your GitHub link</a>
+  </p>
+
+  <!-- Resume Button in Contact -->
+  <p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </p>
 
 </section>
 
-<section id="contact">
-<h2>Contact</h2>
+</main>
 
-<p>Email: mahesh162005k@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/maheshj1605</p>
-
-</section>
+<footer class="footer">
+  <p>© 2026 Mahesh J. All Rights Reserved.</p>
+</footer>
 
 <script src="script.js"></script>
 
